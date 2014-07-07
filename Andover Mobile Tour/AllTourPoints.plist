@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapPoints</key>
+	<array>
+		<dict>
+			<key>locationIndex</key>
+			<integer>0</integer>
+			<key>numberOfPhotos</key>
+			<integer>2</integer>
+			<key>locationName</key>
+			<string>Shuman Admission Center</string>
+			<key>locationDetailName</key>
+			<string>Admissions Building</string>
+			<key>descriptionPath</key>
+			<string>shuman</string>
+			<key>longitude</key>
+			<real>-71.131747</real>
+			<key>latitude</key>
+			<real>42.646089</real>
+		</dict>
+		<dict>
+			<key>locationIndex</key>
+			<integer>1</integer>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationName</key>
+			<string>Borden Gym</string>
+			<key>locationDetailName</key>
+			<string>Athletic Center</string>
+			<key>descriptionPath</key>
+			<string>gym</string>
+			<key>longitude</key>
+			<real>-71.131455</real>
+			<key>latitude</key>
+			<real>42.645612</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>2</integer>
+			<key>locationName</key>
+			<string>Bulfinch Hall</string>
+			<key>locationDetailName</key>
+			<string>English Building</string>
+			<key>descriptionPath</key>
+			<string>bulfinch</string>
+			<key>longitude</key>
+			<real>-71.13113800000001</real>
+			<key>latitude</key>
+			<real>42.645974</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>3</integer>
+			<key>locationName</key>
+			<string>Paresky Commons</string>
+			<key>locationDetailName</key>
+			<string>Dining Hall</string>
+			<key>descriptionPath</key>
+			<string>commons</string>
+			<key>longitude</key>
+			<real>-71.13099699999999</real>
+			<key>latitude</key>
+			<real>42.647008</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>4</integer>
+			<key>locationName</key>
+			<string>Oliver Wendell Holmes Library</string>
+			<key>locationDetailName</key>
+			<string>Library</string>
+			<key>descriptionPath</key>
+			<string>library</string>
+			<key>longitude</key>
+			<real>-71.13182399999999</real>
+			<key>latitude</key>
+			<real>42.647329</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>5</integer>
+			<key>locationName</key>
+			<string>Gelb Science Center</string>
+			<key>locationDetailName</key>
+			<string>Science Academic Building</string>
+			<key>descriptionPath</key>
+			<string>gelb</string>
+			<key>longitude</key>
+			<real>-71.13182399999999</real>
+			<key>latitude</key>
+			<real>42.647329</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>3</integer>
+			<key>locationIndex</key>
+			<integer>6</integer>
+			<key>locationName</key>
+			<string>Samuel Phillips Hall</string>
+			<key>locationDetailName</key>
+			<string>Language and History</string>
+			<key>descriptionPath</key>
+			<string>samphil</string>
+			<key>longitude</key>
+			<real>-71.131468</real>
+			<key>latitude</key>
+			<real>42.64833</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>7</integer>
+			<key>locationName</key>
+			<string>George Washington Hall</string>
+			<key>locationDetailName</key>
+			<string>Administrative Building</string>
+			<key>descriptionPath</key>
+			<string>gw</string>
+			<key>longitude</key>
+			<real>-71.13224</real>
+			<key>latitude</key>
+			<real>42.648786</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>3</integer>
+			<key>locationIndex</key>
+			<integer>8</integer>
+			<key>locationName</key>
+			<string>Elson Art Center</string>
+			<key>locationDetailName</key>
+			<string>Arts Building</string>
+			<key>descriptionPath</key>
+			<string>elson</string>
+			<key>longitude</key>
+			<real>-71.133064</real>
+			<key>latitude</key>
+			<real>42.649122</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>3</integer>
+			<key>locationIndex</key>
+			<integer>9</integer>
+			<key>locationName</key>
+			<string>Foxcroft</string>
+			<key>locationDetailName</key>
+			<string>Student Dorm</string>
+			<key>descriptionPath</key>
+			<string>rooming</string>
+			<key>longitude</key>
+			<real>-71.13239799999999</real>
+			<key>latitude</key>
+			<real>42.64837</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>10</integer>
+			<key>locationName</key>
+			<string>Addison Gallery of American Art</string>
+			<key>locationDetailName</key>
+			<string>Museum</string>
+			<key>descriptionPath</key>
+			<string>addison</string>
+			<key>longitude</key>
+			<real>-71.13338299999999</real>
+			<key>latitude</key>
+			<real>42.648437</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>11</integer>
+			<key>locationName</key>
+			<string>Cochran Chapel</string>
+			<key>locationDetailName</key>
+			<string>School Meeting Center</string>
+			<key>descriptionPath</key>
+			<string>chapel</string>
+			<key>longitude</key>
+			<real>-71.134401</real>
+			<key>latitude</key>
+			<real>42.648974</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>3</integer>
+			<key>locationIndex</key>
+			<integer>12</integer>
+			<key>locationName</key>
+			<string>Graves Hall</string>
+			<key>locationDetailName</key>
+			<string>Music Building</string>
+			<key>descriptionPath</key>
+			<string>graves</string>
+			<key>longitude</key>
+			<real>-71.136185</real>
+			<key>latitude</key>
+			<real>42.648546</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>3</integer>
+			<key>locationIndex</key>
+			<integer>13</integer>
+			<key>locationName</key>
+			<string>Robert S. Peabody Museum</string>
+			<key>locationDetailName</key>
+			<string>Museum of Archeology</string>
+			<key>descriptionPath</key>
+			<string>peabody</string>
+			<key>longitude</key>
+			<real>-71.135126</real>
+			<key>latitude</key>
+			<real>42.6477</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>2</integer>
+			<key>locationIndex</key>
+			<integer>14</integer>
+			<key>locationName</key>
+			<string>Morse Hall</string>
+			<key>locationDetailName</key>
+			<string>Mathematics Building</string>
+			<key>descriptionPath</key>
+			<string>morse</string>
+			<key>longitude</key>
+			<real>-71.130904</real>
+			<key>latitude</key>
+			<real>42.647486</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>15</integer>
+			<key>locationName</key>
+			<string>Memorial Bell Tower</string>
+			<key>locationDetailName</key>
+			<string></string>
+			<key>descriptionPath</key>
+			<string>belltower</string>
+			<key>longitude</key>
+			<real>-71.132548</real>
+			<key>latitude</key>
+			<real>42.645835</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>16</integer>
+			<key>locationName</key>
+			<string>Athletic Fields</string>
+			<key>locationDetailName</key>
+			<string></string>
+			<key>descriptionPath</key>
+			<string>fields</string>
+			<key>longitude</key>
+			<real>-71.12923499999999</real>
+			<key>latitude</key>
+			<real>42.642676</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>2</integer>
+			<key>locationIndex</key>
+			<integer>17</integer>
+			<key>locationName</key>
+			<string>Harrison Rink</string>
+			<key>locationDetailName</key>
+			<string>Hockey Rink</string>
+			<key>descriptionPath</key>
+			<string>harrison</string>
+			<key>longitude</key>
+			<real>-71.129182</real>
+			<key>latitude</key>
+			<real>42.642367</real>
+		</dict>
+	</array>
+</dict>
+</plist>

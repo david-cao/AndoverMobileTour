@@ -1,21 +1,48 @@
 //
 //  PAAppDelegate.m
-//  Andover Mobile Tour
+//  MobileTourModel
 //
-//  Created by David Cao on 7/5/14.
-//  Copyright (c) 2014 Phillips Academy Andover. All rights reserved.
+//  Created by David Cao on 8/21/13.
+//  Copyright (c) 2013 Phillips Academy Andover. All rights reserved.
 //
 
 #import "PAAppDelegate.h"
+#import "PADataReader.h"
+#import "PAPSCManager.h"
+#import "PAHomeViewController.h"
+#import "PATourGatewayViewController.h"
+
+@interface PAAppDelegate ()
+
+- (void)setupData;
+- (void)setupView;
+
+@end
 
 @implementation PAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self setWindow:[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
+    NSLog(@"App started");
+    
+    [self setupData];
+    [self setupView];
+    [PAStyleHelper customizeAppearance];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    
+    NSLog(@"App first launched");
+    
+    PATourGatewayViewController *tourGateway = [[PATourGatewayViewController alloc] init];
+    PAHomeViewController *firstLaunch = [[PAHomeViewController alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tourGateway];
+    [[self window] setRootViewController:navController];
+    [[self window] makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -27,7 +54,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
@@ -44,6 +71,30 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void) setupData {
+    
+    [PADataReader readPlist:@"AllTourPoints"];
+}
+
+- (void)setupView {
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    
+    UIColor *navBarColor = [UIColor colorWithRed:(2/256.0f) green:(47/256.0f) blue:(130/256.0f) alpha:1];
+    [[UINavigationBar appearance] setBarTintColor:navBarColor];
+    
+    //0039A6 blue
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName: [UIColor whiteColor],
+                                                           }];
+    
+    //[[UILabel appearance] setFont:[UIFont fontWithName:@"AppleSDGothicNeo-Regular" size:15.0]];
+    
 }
 
 @end

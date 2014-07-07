@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PATourPhoto" representedClassName="PATourPhoto" syncable="YES">
+        <attribute name="photoPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="detail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PATourPointDetail" inverseName="photos" inverseEntity="PATourPointDetail" syncable="YES"/>
+    </entity>
+    <entity name="PATourPoint" representedClassName="PATourPoint" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="locationDetailName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="locationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="detail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PATourPointDetail" inverseName="point" inverseEntity="PATourPointDetail" syncable="YES"/>
+    </entity>
+    <entity name="PATourPointDetail" representedClassName="PATourPointDetail" syncable="YES">
+        <attribute name="descriptionPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfPhotos" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PATourPhoto" inverseName="detail" inverseEntity="PATourPhoto" syncable="YES"/>
+        <relationship name="point" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PATourPoint" inverseName="detail" inverseEntity="PATourPoint" syncable="YES"/>
+    </entity>
+    <fetchRequest name="AllDetails" entity="PATourPointDetail"/>
+    <fetchRequest name="AllPhotos" entity="PATourPhoto"/>
+    <fetchRequest name="AllPoints" entity="PATourPoint"/>
+    <fetchRequest name="PointForName" entity="PATourPoint" predicateString="locationName == $POINT_NAME"/>
+    <elements>
+        <element name="PATourPhoto" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PATourPoint" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PATourPointDetail" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapPoints</key>
+	<array>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>1</integer>
+			<key>locationIndex</key>
+			<integer>0</integer>
+			<key>locationName</key>
+			<string>Shuman Admissions Center</string>
+			<key>locationDetailName</key>
+			<string>Admissions Building</string>
+			<key>descriptionPath</key>
+			<string>shuman</string>
+			<key>longitude</key>
+			<real>-71.131747</real>
+			<key>latitude</key>
+			<real>42.646089</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>2</integer>
+			<key>locationIndex</key>
+			<integer>1</integer>
+			<key>locationName</key>
+			<string>Bulfinch Hall</string>
+			<key>locationDetailName</key>
+			<string>English Building</string>
+			<key>descriptionPath</key>
+			<string>bulfinch</string>
+			<key>longitude</key>
+			<real>-71.13113800000001</real>
+			<key>latitude</key>
+			<real>42.645974</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>2</integer>
+			<key>locationIndex</key>
+			<integer>2</integer>
+			<key>locationName</key>
+			<string>Borden Gym</string>
+			<key>locationDetailName</key>
+			<string>Athletic Center</string>
+			<key>descriptionPath</key>
+			<string>bordenGym</string>
+			<key>longitude</key>
+			<real>-71.131455</real>
+			<key>latitude</key>
+			<real>42.645612</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>2</integer>
+			<key>locationIndex</key>
+			<integer>3</integer>
+			<key>locationName</key>
+			<string>Oliver Wendell Holmes Library</string>
+			<key>locationDetailName</key>
+			<string>Library</string>
+			<key>descriptionPath</key>
+			<string>library</string>
+			<key>longitude</key>
+			<real>-71.13182399999999</real>
+			<key>latitude</key>
+			<real>42.647329</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>1</integer>
+			<key>locationIndex</key>
+			<integer>5</integer>
+			<key>locationName</key>
+			<string>Morse Hall</string>
+			<key>locationDetailName</key>
+			<string>Mathematics Building</string>
+			<key>descriptionPath</key>
+			<string>morse</string>
+			<key>longitude</key>
+			<real>-71.130904</real>
+			<key>latitude</key>
+			<real>42.647486</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>1</integer>
+			<key>locationIndex</key>
+			<integer>6</integer>
+			<key>locationName</key>
+			<string>Paresky Commons</string>
+			<key>locationDetailName</key>
+			<string>Dining Hall</string>
+			<key>descriptionPath</key>
+			<string>commons</string>
+			<key>longitude</key>
+			<real>-71.13099699999999</real>
+			<key>latitude</key>
+			<real>42.647008</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>3</integer>
+			<key>locationIndex</key>
+			<integer>8</integer>
+			<key>locationName</key>
+			<string>Samuel Phillips Hall</string>
+			<key>locationDetailName</key>
+			<string>Language and History</string>
+			<key>descriptionPath</key>
+			<string>samphil</string>
+			<key>longitude</key>
+			<real>-71.131468</real>
+			<key>latitude</key>
+			<real>42.64833</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>1</integer>
+			<key>locationIndex</key>
+			<integer>9</integer>
+			<key>locationName</key>
+			<string>Foxcroft</string>
+			<key>locationDetailName</key>
+			<string>Student Dorm</string>
+			<key>descriptionPath</key>
+			<string>rooming</string>
+			<key>longitude</key>
+			<real>-71.13239799999999</real>
+			<key>latitude</key>
+			<real>42.64837</real>
+		</dict>
+		<dict>
+			<key>numberOfPhotos</key>
+			<integer>4</integer>
+			<key>locationIndex</key>
+			<integer>10</integer>
+			<key>locationName</key>
+			<string>George Washington Hall</string>
+			<key>locationDetailName</key>
+			<string>Administrative Building</string>
+			<key>descriptionPath</key>
+			<string>gw</string>
+			<key>longitude</key>
+			<real>-71.13224</real>
+			<key>latitude</key>
+			<real>42.648786</real>
+		</dict>
+	</array>
+</dict>
+</plist>

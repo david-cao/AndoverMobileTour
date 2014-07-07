@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapPoints</key>
+	<array>
+		<dict>
+			<key>locationIndex</key>
+			<integer>0</integer>
+			<key>descriptionPath</key>
+			<string>test</string>
+			<key>locationName</key>
+			<string>Oglesby Student Union</string>
+			<key>locationDetailName</key>
+			<string>The Student Union</string>
+			<key>longitude</key>
+			<real>-84.296874</real>
+			<key>latitude</key>
+			<real>30.44426</real>
+		</dict>
+		<dict>
+			<key>locationIndex</key>
+			<integer>1</integer>
+			<key>descriptionPath</key>
+			<string>test</string>
+			<key>locationName</key>
+			<string>Love Building</string>
+			<key>locationDetailName</key>
+			<string>Math And Computer Science</string>
+			<key>longitude</key>
+			<real>-84.299666</real>
+			<key>latitude</key>
+			<real>30.44631</real>
+		</dict>
+		<dict>
+			<key>locationIndex</key>
+			<integer>2</integer>
+			<key>descriptionPath</key>
+			<string>test</string>
+			<key>locationName</key>
+			<string>Tully Gymnasium</string>
+			<key>locationDetailName</key>
+			<string>The student gym</string>
+			<key>longitude</key>
+			<real>-84.301255</real>
+			<key>latitude</key>
+			<real>30.442189</real>
+		</dict>
+		<dict>
+			<key>locationIndex</key>
+			<integer>3</integer>
+			<key>descriptionPath</key>
+			<string>test</string>
+			<key>locationName</key>
+			<string>Wellness Center</string>
+			<key>locationDetailName</key>
+			<string>Cheap Student Healthcare</string>
+			<key>longitude</key>
+			<real>-84.298534</real>
+			<key>latitude</key>
+			<real>30.441866</real>
+		</dict>
+		<dict>
+			<key>locationIndex</key>
+			<integer>4</integer>
+			<key>descriptionPath</key>
+			<string>test</string>
+			<key>locationName</key>
+			<string>FSU Police Station</string>
+			<key>locationDetailName</key>
+			<string>police detail</string>
+			<key>longitude</key>
+			<real>-84.297697</real>
+			<key>latitude</key>
+			<real>30.439796</real>
+		</dict>
+		<dict>
+			<key>locationIndex</key>
+			<integer>5</integer>
+			<key>descriptionPath</key>
+			<string>test</string>
+			<key>locationDetailName</key>
+			<string>The main FSU library</string>
+			<key>latitude</key>
+			<real>30.442711</real>
+			<key>longitude</key>
+			<real>-84.29498700000001</real>
+			<key>locationName</key>
+			<string>Strozier Library</string>
+		</dict>
+	</array>
+</dict>
+</plist>
