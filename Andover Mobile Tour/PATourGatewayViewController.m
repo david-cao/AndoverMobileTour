@@ -42,8 +42,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    //[[self view] setBackgroundColor:[PAStyleHelper backgroundColor]];
 }
 
 - (void)viewDidLoad
@@ -62,6 +60,10 @@
     
     [[self scrollView] setContentSize:[[self scrollView] frame].size];
     [[self scrollView] setFrame:[[self view] bounds]];
+    
+    NSLog(@"Scroll frame: %f, %f", self.scrollView.frame.size.height, self.scrollView.frame.size.width);
+    NSLog(@"Scroll Content: %f, %f", self.scrollView.contentSize.height, self.scrollView.contentSize.width);
+    
     [[self view] addSubview:[self scrollView]];
 }
 
@@ -70,29 +72,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-//- (IBAction)fullTourChosen:(id)sender {
-//    NSFetchRequest *req = [[NSFetchRequest alloc] initWithEntityName:@"PATourPoint"];
-//    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:@"locationIndex" ascending:YES];
-//    [req setSortDescriptors:[NSArray arrayWithObject:descriptor]];
-//    
-//    NSError *err= nil;
-//    NSArray *tourPoints = [[PATourContext sharedContext] executeFetchRequest:req
-//                                                                       error:&err];
-//    
-//    if (err) {
-//        NSLog(@"Error in %s, error descrip %@", __PRETTY_FUNCTION__, err);
-//    }
-//
-//    NSLog(@"Points: %@", tourPoints);
-//    
-//
-//    PATourViewController *tourController = [[PATourViewController alloc] init];
-//
-//    [tourController setTourPoints:tourPoints];
-//        
-//    [self presentViewController:tourController animated:YES completion:nil];
-//}
 
 - (IBAction)customTourChosen:(id)sender {
     //Now the method for next screen; leads to menu
@@ -160,7 +139,7 @@
 //}
 
 - (void)photoBrowser:(MWPhotoBrowser *)photoBrowser didDisplayPhotoAtIndex:(NSUInteger)index {
-    NSLog(@"Did start viewing photo at index %i", index);
+
 }
 
 

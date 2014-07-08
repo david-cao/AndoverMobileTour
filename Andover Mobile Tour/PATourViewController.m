@@ -150,8 +150,6 @@
         //[[self mapView] removeOverlays:[[self mapView] overlays]];
         
         ++currentPoint;
-        NSLog(@"\n\n\nCurrent Point: %d, %@", currentPoint, [[self tourPoints] objectAtIndex:currentPoint]);
-        
         [[self mapView] removeAnnotations:[[self mapView] annotations]];
         
         PATourPoint *point = [[self tourPoints] objectAtIndex:currentPoint];
@@ -176,7 +174,6 @@
         //[[self mapView] removeOverlays:[[self mapView] overlays]];
         
         --currentPoint;
-        NSLog(@"\n\n\nCurrent Point: %d, %@", currentPoint, [[self tourPoints] objectAtIndex:currentPoint]);
         
         [[self mapView] removeAnnotations:[[self mapView] annotations]];
         
@@ -220,7 +217,6 @@
 
 - (IBAction)endTour:(id)sender {
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     PAThankYouViewController *thankYouView = [[PAThankYouViewController alloc] init];
     [[self navigationController] pushViewController:thankYouView animated:YES];
     

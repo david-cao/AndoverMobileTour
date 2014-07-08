@@ -135,6 +135,8 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSLog(@"Detail recieved memory warning");
+    [self setImageView:nil];
 }
 
 - (IBAction)closeDetail:(id)sender {
@@ -165,7 +167,7 @@
 //}
 
 - (void)photoBrowser:(MWPhotoBrowser *)photoBrowser didDisplayPhotoAtIndex:(NSUInteger)index {
-    NSLog(@"Did start viewing photo at index %i", index);
+
 }
 
 @end

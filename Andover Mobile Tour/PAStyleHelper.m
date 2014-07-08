@@ -20,8 +20,6 @@ NSString * const AppCellLabelFont = @"Avenir-Heavy";
 
 + (void)customizeAppearance {
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
-    
     UIColor *navBarColor = [UIColor colorWithRed:(2/256.0f) green:(47/256.0f) blue:(130/256.0f) alpha:1];
     [[UINavigationBar appearance] setBarTintColor:navBarColor];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];

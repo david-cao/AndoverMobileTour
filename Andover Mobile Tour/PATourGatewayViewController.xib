@@ -89,36 +89,6 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
-        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O2y-zV-5Hh">
-            <rect key="frame" x="0.0" y="0.0" width="280" height="214"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-            <attributedString key="attributedText">
-                <fragment>
-                    <string key="content">    We do ask that if you are taking a self-guided tour, please do not enter any of the buildings. To enter buildings, all guests must be accompanied by a staff person or an Admission tour guide. If you are interested in taking a guided tour, please contact the PA Admission Office at 978-749-4050 to make arrangements.</string>
-                    <attributes>
-                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <font key="NSFont" size="17" name="TrebuchetMS"/>
-                        <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                    </attributes>
-                </fragment>
-            </attributedString>
-            <nil key="highlightedColor"/>
-        </label>
-        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Quw-LU-W1s">
-            <rect key="frame" x="0.0" y="0.0" width="280" height="249"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-            <attributedString key="attributedText">
-                <fragment>
-                    <string key="content">    Welcome to Andover! This mobile tour is meant for those taking a self-guided tour of our campus. This tour will walk you around to the key buildings and places on campus and provide you with some photos and text that will help familiarize you with our facilities. Much more information about Phillips Academy and the “Andover experience”  can be found on our website at www.andover.edu.</string>
-                    <attributes>
-                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <font key="NSFont" size="17" name="TrebuchetMS"/>
-                        <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                    </attributes>
-                </fragment>
-            </attributedString>
-            <nil key="highlightedColor"/>
-        </label>
     </objects>
     <resources>
         <image name="samphil_1.jpg" width="500" height="750"/>

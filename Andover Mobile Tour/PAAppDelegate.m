@@ -23,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self setWindow:[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
     NSLog(@"App started");
@@ -32,7 +32,7 @@
     [self setupView];
     [PAStyleHelper customizeAppearance];
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     NSLog(@"App first launched");
     
@@ -41,7 +41,8 @@
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tourGateway];
     [[self window] setRootViewController:navController];
-    [[self window] makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
@@ -79,8 +80,6 @@
 }
 
 - (void)setupView {
-    
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     
     UIColor *navBarColor = [UIColor colorWithRed:(2/256.0f) green:(47/256.0f) blue:(130/256.0f) alpha:1];
     [[UINavigationBar appearance] setBarTintColor:navBarColor];

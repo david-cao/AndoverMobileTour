@@ -56,7 +56,6 @@
 
 - (IBAction)returnHome:(id)sender {
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     //[[NSNotificationCenter defaultCenter] postNotificationName:returnHomeNotificationName object:self];
     //[[[self presentingViewController] presentingViewController] dismissViewControllerAnimated:YES completion:nil];
     
@@ -70,7 +69,6 @@
 
 - (IBAction)returnToTour:(id)sender {
     
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     [[self navigationController] popViewControllerAnimated:YES];
 }
 @end
