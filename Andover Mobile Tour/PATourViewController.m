@@ -52,10 +52,13 @@
     if (_tourPoints) {
         [[self mapDelegate] setPoints:_tourPoints];
     }
+    [self.mapDelegate zoomToCampus];
     
 }
 
 -(void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
     
     if (currentPoint != -1) {
         [[self navigationItem] setTitle:[[[self tourPoints] objectAtIndex:currentPoint] locationName]];

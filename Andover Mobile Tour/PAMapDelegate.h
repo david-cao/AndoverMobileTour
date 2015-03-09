@@ -21,5 +21,6 @@
 - (void)directionToPoint:(NSInteger)pointIndex;
 - (void)overviewOfRoute;
 - (id)initForMap:(MKMapView *)map andController:(UIViewController *)controller;
+- (void)zoomToCampus;
 
 @end

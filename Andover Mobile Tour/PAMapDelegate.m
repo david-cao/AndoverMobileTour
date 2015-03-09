@@ -13,7 +13,7 @@
 #import "PAFetchHelper.h"
 #import "PATourContext.h"
 
-#define DELTA_LAT_SPAN_MAX 0.02
+#define DELTA_LAT_SPAN_MAX 0.01
 
 #define topLeftLongitude 42.65206
 #define topLeftLatitude -71.142129
@@ -109,6 +109,15 @@
             
         }
     }
+}
+
+- (void)zoomToCampus {
+    
+    MKCoordinateSpan span = MKCoordinateSpanMake(DELTA_LAT_SPAN_MAX, DELTA_LAT_SPAN_MAX);
+    CLLocationCoordinate2D coordinate = {CENTER_LONGITUDE, CENTER_LATITUDE};
+    MKCoordinateRegion region = {coordinate, span};
+    MKCoordinateRegion regionThatFits = [self.mapView regionThatFits:region];
+    [self.mapView setRegion:regionThatFits animated:YES];
 }
 
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
