@@ -8,6 +8,7 @@
 
 #import "PADetailViewController.h"
 #import "PATourPoint.h"
+#import <HTPressableButton/UIColor+HTColor.h>
 #import "MWPhotoBrowser.h"
 
 @interface PADetailViewController () <MWPhotoBrowserDelegate>
@@ -32,7 +33,7 @@
 - (id)initWithPointDetail:(PATourPointDetail *)pointDetail {
     if (self = [super init]) {
         [self setPointDetail:pointDetail];
-        [[self navigationItem] setTitle:[[[self pointDetail] point] locationName]];
+//        [[self navigationItem] setTitle:[[[self pointDetail] point] locationName]];
     }
     return self;
 }
@@ -97,10 +98,20 @@
     
     [[self textView] setNumberOfLines:lines];
     [[self textView] setFrame:CGRectMake(20, 266, [[UIScreen mainScreen] bounds].size.width - 40, height)];
-
-    
     
     [[self view] addSubview:[self scrollView]];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.navigationController.navigationBar setBarTintColor:[UIColor blackColor]];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    [self.navigationController.navigationBar setBarTintColor:[UIColor ht_belizeHoleColor]];
 }
 
 - (void)imageTapped:(UIGestureRecognizer *)singleTap {

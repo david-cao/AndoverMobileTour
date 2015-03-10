@@ -7,6 +7,7 @@
 //
 
 #import "PAStyleHelper.h"
+#import <HTPressableButton/UIColor+HTColor.h>
 
 #define APP_FONT_SIZE (CGFloat)15.0
 
@@ -21,7 +22,7 @@ NSString * const AppCellLabelFont = @"Avenir-Heavy";
 + (void)customizeAppearance {
     
     UIColor *navBarColor = [UIColor colorWithRed:(2/256.0f) green:(47/256.0f) blue:(130/256.0f) alpha:1];
-    [[UINavigationBar appearance] setBarTintColor:navBarColor];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor ht_belizeHoleColor]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     [[UINavigationBar appearance] setTitleTextAttributes:@{

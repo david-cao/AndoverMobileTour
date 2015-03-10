@@ -96,6 +96,7 @@
     
     if ([indexPath row] == 0) {
         [[cell textLabel] setText:@"Display all points"];
+        [[cell detailTextLabel] setText:@""];
     } else {
         NSIndexPath *anIndexPath = [NSIndexPath indexPathForRow:([indexPath row] - 1) inSection:[indexPath section]];
 

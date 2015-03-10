@@ -26,7 +26,6 @@
 		171407051968EEFD00A9E204 /* PAMapPointSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171407041968EEFD00A9E204 /* PAMapPointSelectionViewController.m */; };
 		171407091968EF1100A9E204 /* PACreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171407071968EF1100A9E204 /* PACreditsViewController.m */; };
 		1714070A1968EF1100A9E204 /* PACreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 171407081968EF1100A9E204 /* PACreditsViewController.xib */; };
-		171407101968EF9E00A9E204 /* PACustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1714070D1968EF9E00A9E204 /* PACustomButton.m */; };
 		171407111968EF9E00A9E204 /* PADetailButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1714070F1968EF9E00A9E204 /* PADetailButton.m */; };
 		1714071B1968EFDC00A9E204 /* PAPSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 171407171968EFDC00A9E204 /* PAPSCManager.m */; };
 		1714071C1968EFDC00A9E204 /* PATourContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 171407191968EFDC00A9E204 /* PATourContext.m */; };
@@ -195,8 +194,6 @@
 		171407061968EF1100A9E204 /* PACreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACreditsViewController.h; sourceTree = "<group>"; };
 		171407071968EF1100A9E204 /* PACreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACreditsViewController.m; sourceTree = "<group>"; };
 		171407081968EF1100A9E204 /* PACreditsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PACreditsViewController.xib; sourceTree = "<group>"; };
-		1714070C1968EF9E00A9E204 /* PACustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACustomButton.h; sourceTree = "<group>"; };
-		1714070D1968EF9E00A9E204 /* PACustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACustomButton.m; sourceTree = "<group>"; };
 		1714070E1968EF9E00A9E204 /* PADetailButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PADetailButton.h; sourceTree = "<group>"; };
 		1714070F1968EF9E00A9E204 /* PADetailButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PADetailButton.m; sourceTree = "<group>"; };
 		171407161968EFDC00A9E204 /* PAPSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPSCManager.h; sourceTree = "<group>"; };
@@ -429,8 +426,6 @@
 				171406F61968EEC800A9E204 /* PADetailViewController.xib */,
 				171406EF1968EEB700A9E204 /* PATourViewController.xib */,
 				171406FB1968EED700A9E204 /* PAThankYouViewController.xib */,
-				1714070C1968EF9E00A9E204 /* PACustomButton.h */,
-				1714070D1968EF9E00A9E204 /* PACustomButton.m */,
 				1714070E1968EF9E00A9E204 /* PADetailButton.h */,
 				1714070F1968EF9E00A9E204 /* PADetailButton.m */,
 			);
@@ -930,7 +925,6 @@
 				171406DD1968EE5600A9E204 /* PAFAQTableViewCell.m in Sources */,
 				1714071C1968EFDC00A9E204 /* PATourContext.m in Sources */,
 				171407091968EF1100A9E204 /* PACreditsViewController.m in Sources */,
-				171407101968EF9E00A9E204 /* PACustomButton.m in Sources */,
 				171407301968F0AA00A9E204 /* PADataReader.m in Sources */,
 				171406CE1968ECFB00A9E204 /* PAFAQViewController.m in Sources */,
 				171407221968F01C00A9E204 /* PATourPoint.m in Sources */,

@@ -65,6 +65,7 @@
     
     [self createKeyButton];
     
+    [self.mapDelegate zoomToCampus];
     
     if ([self opened]) {
         [self placeAllPoints];

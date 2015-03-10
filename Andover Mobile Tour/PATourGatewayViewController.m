@@ -12,6 +12,8 @@
 #import "PATourContext.h"
 #import "MWPhotoBrowser.h"
 #import "PAHomeViewController.h"
+#import <HTPressableButton/HTPressableButton.h>
+#import <HTPressableButton/UIColor+HTColor.h>
 #import <CoreData/CoreData.h>
 
 @interface PATourGatewayViewController () <MWPhotoBrowserDelegate>
@@ -64,6 +66,13 @@
     NSLog(@"Scroll frame: %f, %f", self.scrollView.frame.size.height, self.scrollView.frame.size.width);
     NSLog(@"Scroll Content: %f, %f", self.scrollView.contentSize.height, self.scrollView.contentSize.width);
     
+    HTPressableButton *button = [[HTPressableButton alloc] initWithFrame:self.nextButton.frame buttonStyle:HTPressableButtonStyleRect];
+    [button setTitle:@"Next" forState:UIControlStateNormal];
+    [button setButtonColor:[UIColor ht_peterRiverColor]];
+    [button setShadowColor:[UIColor ht_belizeHoleColor]];
+    [button addTarget:self action:@selector(customTourChosen:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.scrollView addSubview:button];
     [[self view] addSubview:[self scrollView]];
 }
 

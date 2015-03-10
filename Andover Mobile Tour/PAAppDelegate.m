@@ -11,6 +11,7 @@
 #import "PAPSCManager.h"
 #import "PAHomeViewController.h"
 #import "PATourGatewayViewController.h"
+#import <HTPressableButton/UIColor+HTColor.h>
 
 @interface PAAppDelegate ()
 
@@ -37,7 +38,7 @@
     NSLog(@"App first launched");
     
     PATourGatewayViewController *tourGateway = [[PATourGatewayViewController alloc] init];
-    PAHomeViewController *firstLaunch = [[PAHomeViewController alloc] init];
+//    PAHomeViewController *firstLaunch = [[PAHomeViewController alloc] init];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tourGateway];
     [[self window] setRootViewController:navController];

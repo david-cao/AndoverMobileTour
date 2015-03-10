@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class HTPressableButton;
+
 @interface PATourGatewayViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet HTPressableButton *nextButton;
 
 //- (IBAction)fullTourChosen:(id)sender;
 - (IBAction)customTourChosen:(id)sender;
